@@ -26,9 +26,9 @@ namespace console_app
 
             await studentsTable.CreateIfNotExistsAsync();
 
-            // await AddNewStudent();
-            // await EditStudent();
-            // await GetAllStudents();
+            await AddNewStudent();
+            await EditStudent();
+            await GetAllStudents();
         }
 
         private static async Task GetAllStudents()
